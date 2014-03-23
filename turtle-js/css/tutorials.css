@@ -1,0 +1,28 @@
+body {
+	background-color: #16B04F;
+	color:#fff;
+}
+
+header {
+	padding-left: 5%;
+	padding-bottom: 2%;
+
+}
+
+.container {
+	background-color: #18BF56;
+
+}
+
+#footer {
+	background-color: #18BF56;
+}
+
+#footer_p {
+
+	padding: 11px;
+}
+
+img:hover{
+	opacity: 0.90;
+}
