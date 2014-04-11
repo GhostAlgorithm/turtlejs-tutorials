@@ -1,6 +1,6 @@
 body {
-	background-color: #16B04F;
-	color:#fff;
+	background-color: #3E64B2;
+	color:#FFF;
 }
 
 header {
@@ -10,12 +10,12 @@ header {
 }
 
 .container {
-	background-color: #18BF56;
+
 
 }
 
 #footer {
-	background-color: #18BF56;
+	background-color: #3E64B2		;
 }
 
 #footer_p {
@@ -24,5 +24,24 @@ header {
 }
 
 img:hover{
-	opacity: 0.90;
+
+}
+
+#myCarousel {
+    margin: auto;
+	position:relative;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+.carousel-control.left {
+	background-image:none;
+}
+
+.carousel-control.right {
+	background-image:none;
+}
+
+img{
+	margin:auto;
+	padding-bottom:10px;
 }
