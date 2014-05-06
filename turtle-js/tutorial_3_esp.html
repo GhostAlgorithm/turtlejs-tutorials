@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TA Tutorials</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="css/tutorials.css">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
+          <span class="sr-only">Ingresar Proyecto</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+        <a href="#" class="navbar-brand">Sugar Labs</a>
+      </div>
+
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="#"> Turtle Art</a></li>
+            <li><a href="#"> Turtle Art Wiki </a></li>
+            <li><a href="#"> Tutoriales </a></li>
+            <li class="dropdown text-right"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Languaje / Idioma<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"> English</a></li>
+                <li><a href="#"> Español </a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+     </nav>
+
+
+    <header><h1>Tutoriales (Web Turtle Art)</h1></header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+
+          <div class="col-lg-10 col-md-10 text-center">
+            <h2>Tutorial 3 Paleta Básica (Paleta Tortuga)</h2>
+
+            <p>En este tutorial se muestran los bloques dentro de la paleta Tortuga y su función.</p><br><br>
+
+            <img src="img/basic.png"><br>
+
+            <p><strong>Bloque Forward</strong>: Con este bloque se puede mover a la tortuga hacia delante de donde se su cabeza indique, al moverse la tortuga, se irá dibujando. Para usar este bloque es necesaria la unión con el bloque de valor de esta forma la aplicación sabrá que tanto la tortuga se moverá. </p><br>
+
+            <p><strong>Bloque Backward</strong>: Al igual que con el bloque forward, dependiendo de hacía a donde apunte la cabeza de la tortuga, así será su movimiento, en este caso moviéndose hacia atrás. También se necesita del bloque de valor para especificar cuanto se desea mover.</p><br>
+
+            <p><strong>Bloque Right</strong>: Este bloque permite rotar la tortuga hacia la derecha tantos grados positivos desees.</p><br>
+
+            <p><strong>Bloque Left</strong>: Este bloque permite rotar la tortuga al lado izquierdo, tantos grados positivos desees.</p><br>
+
+            <p><strong>Bloque de valor (bloque 100)</strong>: Es el bloque que permite guardar un valor para ser usado como una variable.</p><br>
+
+            <p><strong>Bloque Clean</strong>: Es un bloque que al igual que el borrador, permite borrar completamente el dibujo trazado por la tortuga y además la deja en el lugar predeterminado, que es el centro de la pantalla.</p><br>
+
+            <p><strong>Bloque Heading</strong>: Por medio de este bloque se puede conocer la rotación absoluta de la inclinación de la cabeza de la tortuga.</p><br>
+
+            <p><strong>Bloque Set heading</strong>: Se utiliza este bloque para especificar la rotación absoluta de la tortuga.</p><br>
+
+            <p><strong>Bloque Arc</strong>: Este bloque permite lineas curvas, para esto requiere de la ayuda de dos bloques de valor, uno para indicar el ángulo y otro para indicar el radio por el cual se moverá.</p><br>
+            
+            <p><strong>Bloque xcor</strong>: Este bloque permite obtener la posición en el eje x de donde se encuentra la tortuga.</p><br>
+
+            <p><strong>Bloque ycor</strong>: Este bloque permite obtener la posición en el eje y de donde se encuentra la tortuga.</p><br>
+            
+            <p><strong>Bloque set xy</strong>: Por medio de este bloque, se puede ubicar a la tortuga en un lugar específico y a la vez trazar una línea desde la posición de origen hasta la posición inicial. Para usar este bloque necesitas dos diferentes valores, uno para la posición en x y el otro para la posición en y, ambos en sus respectivos ejes.</p><br>
+
+            <p>Ir a siguiente <a href="tutorial_4_esp.html">tutorial 4</a></p>
+
+
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer" class="navbar navbar-fixed-bottom">
+      <div class"container">
+        <p id="footer_p"class="text-center">Sugar Labs - Turtle Art - OpenSource Software</p>
+      </div>
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TA Tutorials</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="css/tutorials.css">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
+          <span class="sr-only">Ingresar Proyecto</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+        <a href="#" class="navbar-brand">Sugar Labs</a>
+      </div>
+
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="#"> Turtle Art</a></li>
+            <li><a href="#"> Turtle Art Wiki </a></li>
+            <li><a href="#"> Tutoriales </a></li>
+            <li class="dropdown text-right"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Languaje / Idioma<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"> English</a></li>
+                <li><a href="#"> Español </a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+     </nav>
+
+
+    <header><h1>Tutorials .:Turtle Art Web:.</h1></header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+
+          <div class="col-lg-10 col-md-10 text-center">
+            <h2>Tutorial 1: Turtle Art Web </h2>
+
+            <p>En este primer tutorial se muestra la estructura básica de la aplicación, las partes que la conforman y como estas funcionan.</p>
+            <img src="img/spa_gui.png" alt="gui">
+            <h5>Turtle Art Web </h5>
+            <p><b>Turtle Art</b> es una aplicación que permite dibujar por medio del control de una tortuga usando bloques. Dependiendo que quieras dibujar y como lo quieras dibujar, así serán los bloques que debes usar.</p><br>
+
+            <h4><b>Interfaz gráfica de Turtle Art Web</b></h4>
+            <p>La interfaz de la aplicación Turtle Art es bien sencilla, tiene una barra de herramientas que posee las diferentes paletas de las funciones a dar a la tortuga, los botones de acción y el lienzo donde estarán los dibujos.</p>          
+
+            <img src="img/spa_gui_desc.png">
+
+            <h4><b>Partes de la Interfaz:</b></h4>
+
+            <p><i><b>La Barra de herramientas:</b></i> Es un rectangulo negro ubicado en la parte superior de la App, el cual contiene todas las funciones y acciones que manejan la tortuga y el lienzo. Dentro hay dos menú, los cuales son: </p>
+
+            <p>* <em><strong>Las paletas</strong></em>: Las paletas estan a cargo de todas las funciones que la tortuga pueda realizar, como acciones de dibujo, el movimiento de la tortuga y configuración de colores.</p>
+
+            <p> * <em>Botones de acción</em>: Estos botones estan a cargo de acciones que el usuario haga con la aplicación, asi como Guardar archivo, Abrir archivo o ejecutar archivo.</p>
+
+            <p><i>La Tortuga:</i> Es la pequeña imagen verde de una tortuga que se encuentra sobre el lienzo. La tortuga es como el lapiz/marcador/brocha/etc. en el lienzo y tu solo tienes que darle ordenes.</p>
+
+            <p><i>The Canvas:</i> El lienzo es toda la parte blanca detrás de la tortuga, es la parte que muestra todo lo que el usuario haya dibujado.</p><br>
+
+            <img src="img/spa_toolbar.png">
+
+            <h4><br>Los botones de acción</b></h4>
+
+            <p><b> El conejo (ejecutar archivo) :)</b>Al presionar este botón, la aplicación ejecutará todos los bloques que el usuario haya unido para crear su dibujo.</p>
+
+            <p><b>The Eraser:</b>Después de haber presionado este botón, la aplicación borrará todo lo que haya sido dibujado en el lienzo por el usuario. Esto afectará solamente a cualquier dibujo sobre el lienzo, no afectará ninguno de los bloques que hayan sido elegidos.</p>
+
+            <p><b>El bloque:</b>Este botón hará visible o no visible los bloques despues de haber sido presionado. No cambiará nada en los bloques.</p>
+
+
+            <p><b>Open: </b>Con esta opción puedes abrir proyectos que hayan sido previamente guardados, sin importar si son de la versión Turtle Art Web o de la version de Turtle Art de escritorio.</p>
+
+            <p><b>Save: </b>Con esta opción puedes guardar tus proyectos que has estado trabajando.</p><br>
+
+            <p><strong><em>Las Paletas ... continua en <a href="tutorial_2_esp.html">tutorial 2</a></em></strong></p>
+          </div>
+
+      </div>
+    </div>
+    
+    <div id="footer" class="navbar navbar-fixed-bottom">
+      <div class"container">
+        <p id="footer_p"class="text-center">Sugar Labs - Turtle Art - OpenSource Software</p>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TA Tutorials</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"  href="css/tutorials.css">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
+          <span class="sr-only">Ingresar Proyecto</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+        <a href="#" class="navbar-brand">Sugar Labs</a>
+      </div>
+
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+
+            <li><a href="#"> Turtle Art</a></li>
+            <li><a href="#"> Turtle Art Wiki </a></li>
+            <li><a href="#"> Tutoriales </a></li>
+            <li class="dropdown text-right"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Languaje / Idioma<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"> English</a></li>
+                <li><a href="#"> Español </a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+     </nav>
+
+
+    <header><h1>Tutoriales Web Turtle Art</h1></header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+
+          <div class="col-lg-10 col-md-10 text-center">
+            <h2>Tutorial 4: Moviendo la tortuga.</h2>
+
+            <p>En este tutorial se muestra cómo puedes mover a la tortuga usando bloques de la paleta Básica o paleta Tortuga.</p>
+
+            <p>Para este tutorial es necesario que hayas leído el tutorial 2 y el tutorial 3, de esta forma tengas menos dudas de lo que en este se realizará.</p><br>
+
+            <p><strong>Usando el bloque Forward</strong></p>
+
+            <p>Por medio de este bloque, se puede mover a la tortuga hacia adelante, pero dependiendo de hacia donde la cabeza señale.</p>
+
+            <p>Requerido para su funcionamiento:</p>
+
+            <p>Para su funcionamiento, se necesita de un bloque de valor, debido a que sin este no se puede especificar cuanto será el movimiento. El movimiento en este caso es en base a pixeles en el lienzo. Tomando como referencia que la tortuga estará siempre en una posición 0.</p><br>
+
+            <p><strong>Usando el bloque Backward</strong></p>
+
+            <p>Este bloque permite mover la tortuga hacia atrás de donde esta se encuentre y dependiendo de dónde su cabeza apunte. </p>
+
+            <p>Requerido para su funcionamiento:</p>
+
+            <p>Para que este bloque funcione, se necesita de un bloque de valor, en este caso para especificar cuantos pixeles la tortuga deberá moverse.</p><br>
+
+            <p><strong>Usando Left</strong></p>
+
+            <p>Con este bloque se puede rotar a la tortuga hacia la izquierda tantos grados se quieran.</p>
+
+            <p>Requerido para su funcionamiento:</p>
+
+            <p>Este bloque también requiere de un bloque de valor, en su caso, para especificar cuantos grados positivos se desea rotar la tortuga.</p><br>
+
+            <p><strong>Usando Right</strong></p>
+
+            <p>Con este bloque se puede rotar a la tortuga hacia la derecha cuantos grados se deseen.</p>
+
+            <p>Requerido para su funcionamiento:</p>
+
+            <p>Al igual que el bloque Left, necesita de un bloque de valor para funcionar, siendo este bloque la variable que especifique la cantidad de grados positivos a rotar hacia la derecha. </p><br>
+
+            <p><strong>Usado Arc</strong></p>
+
+            <p>Con este bloque se puede mover a la tortuga en puras líneas curvas hasta figuras circulares y elípticas.</p>
+
+            <p>Requerido para su funcionamiento:</p>
+
+            <p>Para usar este bloque se necesitan dos bloques de valor, uno para indicar el ángulo de inclinación y otro bloque de valor para indicar el tamaño del radio a utilizar. </p><br>
+
+            <p><strong>Usando Set XY</strong></p>
+
+            <p>Por medio de este bloque se puede especificar un movimiento directo de la tortuga hasta una posición definida, tomando en cuenta la posición en el eje -x y en el eje –y.</p>
+
+            <p>Requerido para su funcionamiento:</p>
+
+            <p>Para poder usar este bloque se necesitan dos diferentes bloques de valor, uno para especificar el eje –x y otro para especificar el eje –y. el movimiento se hará desde un punto 0,0 desde donde en ese momento se encuentre la tortuga.</p><br>
+
+            <p><strong>Usando Clean </strong></p>
+
+            <p>Permite borrar cualquier dibujo que se encuentre dentro del lienzo.</p>
+
+            <p>Requerido para su funcionamiento:</p>
+
+            <p>Ninguno, al ejecutarse todos los bloques y llegar al bloque Clean, esté borrará todo y lo dejará en su forma por default.</p>
+
+
+      
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer" class="navbar navbar-fixed-bottom">
+      <div class"container">
+        <p id="footer_p"class="text-center">Sugar Labs - Turtle Art - OpenSource Software</p>
+      </div>
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
